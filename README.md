@@ -1,4 +1,4 @@
-# Anchor Docs
+# MagicBlocks
 
 ## Getting started
 
