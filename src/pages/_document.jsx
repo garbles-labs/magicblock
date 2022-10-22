@@ -2,28 +2,11 @@ import { Head, Html, Main, NextScript } from 'next/document'
 
 const themeScript = `
   let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  
+  document.documentElement.setAttribute('data-theme', 'dark')
 
   function updateTheme(savedTheme) {
     let theme = 'dark'
-    try {
-      if (!savedTheme) {
-        savedTheme = window.localStorage.theme
-      }
-      if (savedTheme === 'dark') {
-        theme = 'dark'
-        document.documentElement.classList.add('dark')
-      } else if (savedTheme === 'light') {
-        theme = 'light'
-        document.documentElement.classList.remove('dark')
-      } else if (mediaQuery.matches) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    } catch {
-      theme = 'light'
-      document.documentElement.classList.remove('dark')
-    }
     return theme
   }
 
@@ -38,13 +21,8 @@ const themeScript = `
   document.documentElement.setAttribute('data-theme', updateTheme())
 
   new MutationObserver(([{ oldValue }]) => {
-    let newValue = document.documentElement.getAttribute('data-theme')
-    if (newValue !== oldValue) {
-      try {
-        window.localStorage.setItem('theme', newValue)
-      } catch {}
-      updateThemeWithoutTransitions(newValue)
-    }
+    let newValue = 'dark'
+    window.localStorage.setItem('theme', 'dark')
   }).observe(document.documentElement, { attributeFilter: ['data-theme'], attributeOldValue: true })
 
   mediaQuery.addEventListener('change', updateThemeWithoutTransitions)
@@ -53,7 +31,7 @@ const themeScript = `
 
 export default function Document() {
   return (
-    <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
+    <Html className="antialiased [font-feature-settings:'ss01'] dark" lang="en">
       <Head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </Head>

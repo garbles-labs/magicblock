@@ -146,7 +146,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <PlausibleProvider domain="anchor-lang.com" trackOutboundLinks={true}>
+      <PlausibleProvider domain="magicblocks.gg" trackOutboundLinks={true}>
         <Head>
           <title>{pageTitle}</title>
           {description && <meta name="description" content={description} />}
@@ -157,7 +157,7 @@ export default function App({ Component, pageProps }) {
           <meta property="og:description" content={description} />
           <meta
             property="og:image"
-            content="https://www.anchor-lang.com/logo.png"
+            content="https://www.magicblocks.gg/logo.png"
           />
           <meta property="og:image:width" content="250" />
           <meta property="og:image:height" content="214" />
@@ -168,7 +168,7 @@ export default function App({ Component, pageProps }) {
           <meta name="twitter:description" content={description} />
           <meta
             name="twitter:image"
-            content="https://www.anchor-lang.com/logo.png"
+            content="https://www.magicblocks.gg/logo.png"
           />
         </Head>
         <Layout
