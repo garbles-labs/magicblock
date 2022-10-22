@@ -22,9 +22,7 @@ MagicBlocks is bringing the blockchain into mobile gaming. {% .lead %}
 
 ## What is MagicBlocks
 
-MagicBlocks is bringing the blockchain into mobile gaming.
-
-Lorem ipsum .......
+MagicBlocks is a web3 mobile studio that bridge the technical gap between blockchain and the mass mobile market. 
 
 
 
