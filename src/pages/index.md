@@ -22,14 +22,14 @@ MagicBlocks is bringing the blockchain into mobile gaming. {% .lead %}
 
 ## What is MagicBlocks
 
-MagicBlocks is a web3 mobile studio that bridge the technical gap between blockchain and the mass mobile market. 
+MagicBlocks is a Web3 mobile studio that bridges the technical gap between blockchains and the mass mobile market. 
 
 
 
-### Twitter
+### Our tech
 
-[Stay up to date on Twitter](https://twitter.com/garblesfun)
+[Solana.Unity-SDK](https://github.com/garbles-labs/Solana.Unity-SDK)
 
-### Join the community
+### Our titles
 
-[Discord Invitation](https://discord.gg/PDeRXyVURd)
+[Garbles](https://twitter.com/garblesfun)
