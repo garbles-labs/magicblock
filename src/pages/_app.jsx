@@ -89,8 +89,8 @@ const navigation = [
     links: [{ title: 'Tic-Tac-Toe', href: '/docs/tic-tac-toe' }],
   },
   {
-    title: 'Common Security Exploits',
-    links: [{ title: 'Sealevel Attacks', href: '/docs/security-exploits' }],
+    title: 'Contacts',
+    links: [{ title: 'Reach us', href: '/docs/contact' }],
   },
 ]
 
