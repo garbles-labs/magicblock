@@ -1,10 +1,10 @@
 ---
 title: Introduction
-pageTitle: Anchor - Introduction
-description: Anchor is a framework for Solana's Sealevel runtime providing several convenient developer tools for writing smart contracts.
+pageTitle: MagicBlocks - Introduction
+description: Add a bit of magic to each block.
 ---
 
-Anchor is a framework for Solana's Sealevel runtime providing several convenient developer tools for writing smart contracts. {% .lead %}
+MagicBlocks is bringing the blockchain into mobile gaming. {% .lead %}
 
 {% link-grid %}
 
@@ -20,20 +20,18 @@ Anchor is a framework for Solana's Sealevel runtime providing several convenient
 
 ---
 
-## What is Anchor
+## What is MagicBlocks
 
-Anchor is a framework for quickly building secure Solana programs.
+MagicBlocks is bringing the blockchain into mobile gaming.
 
-With Anchor you can build programs quickly because it writes various boilerplate for you such as (de)serialization of accounts and instruction data.
+Lorem ipsum .......
 
-You can build secure programs more easily because Anchor handles certain security checks for you. On top of that, it allows you to succinctly define additional checks and keep them separate from your business logic.
 
-Both of these aspects mean that instead of working on the tedious parts of raw Solana programs, you can spend more time working on what matters most, your product.
 
 ### Twitter
 
-[Stay up to date on Twitter](https://twitter.com/anchorlang)
+[Stay up to date on Twitter](https://twitter.com/garblesfun)
 
 ### Join the community
 
-[Discord Invitation](http://discord.gg/ZCHmqvXgDw)
+[Discord Invitation](https://discord.gg/PDeRXyVURd)

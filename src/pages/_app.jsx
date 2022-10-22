@@ -77,10 +77,6 @@ const navigation = [
         title: 'Rust Client Library',
         href: 'https://docs.rs/anchor-client/latest/anchor_client/',
       },
-      // {
-      //   title: 'TypeScript Client Library',
-      //   href: 'https://docs.rs/anchor-lang/latest/anchor_lang/error/enum.ErrorCode.html',
-      // },
       {
         title: 'JavaScript Anchor Types',
         href: '/docs/javascript-anchor-types',

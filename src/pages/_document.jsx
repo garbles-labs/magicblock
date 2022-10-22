@@ -4,7 +4,7 @@ const themeScript = `
   let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
 
   function updateTheme(savedTheme) {
-    let theme = 'system'
+    let theme = 'dark'
     try {
       if (!savedTheme) {
         savedTheme = window.localStorage.theme
