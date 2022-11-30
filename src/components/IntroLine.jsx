@@ -6,10 +6,11 @@ export function IntroLine() {
               <span className="pl-4 pr-4 bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
                   Web3
               </span>
-              mobile studio that bridges the technical gap between
-              <span className="pl-4 pr-4 bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
+              mobile studio <br/> that bridges the gap between
+              <br/>
+              <span className="pr-4 bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
                   blockchain
-              </span> <br/>
+              </span>
               and the mass
               <span className="pl-4 bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
                   mobile market
