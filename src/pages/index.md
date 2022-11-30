@@ -1,34 +1,33 @@
 ---
-title: Introduction
-pageTitle: MagicBlocks - Introduction
+title: 
+pageTitle: Magicblock
 description: Add a bit of magic to each block.
 ---
 
-MagicBlocks is bringing the blockchain into mobile gaming. {% .lead %}
+{% intro /%}
+
+---
+
+## Our Tech
+
+Open Source is at the heart of what we do at Magicblock. We believe building software in the open, with thriving communities, helps leave the world a little better than we found it.
+
+---
 
 {% link-grid %}
 
-{% link-grid-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your system and installing Anchor." /%}
+{% link-grid-link title="Solana.Unity-SDK" icon="plugins" href="https://github.com/garbles-labs/Solana.Unity-SDK" description="Solana Unity SDK with wallets adapters & Full RPC coverage." /%}
 
-{% link-grid-link title="Intro to Solana" icon="presets" href="/docs/intro-to-solana" description="Brief intro to programming on Solana." /%}
+{% link-grid-link title="Solana.Unity-Core" icon="presets" href="https://github.com/garbles-labs/Solana.Unity-Core" description="Solana's Unity SDK and integration library." /%}
 
-{% link-grid-link title="High-Level Overview" icon="plugins" href="/docs/high-level-overview" description="High-Level Overview of an Anchor program." /%}
+{% link-grid-link title="Solana.Unity.Anchor" icon="lightbulb" href="https://github.com/garbles-labs/Solana.Unity.Anchor" description="Unity C# Client code generation tools for Solana Anchor programs" /%}
 
-{% link-grid-link title="CLI reference" icon="theming" href="/docs/cli" description="A CLI is provided to support building and managing an Anchor workspace." /%}
+{% link-grid-link title="Solana.Unity.Metaplex" icon="theming" href="https://github.com/garbles-labs/Solana.Unity.Metaplex" description="Metaplex Protocol .NET integration library." /%}
 
 {% /link-grid %}
 
 ---
 
-## Web3 mobile studio
+### Our Games
 
-MagicBlocks is a Web3 mobile studio that bridges the technical gap between blockchains and the mass mobile market. 
-
-
-### Our tech
-
-[Solana.Unity-SDK](https://github.com/garbles-labs/Solana.Unity-SDK)
-
-### Our games
-
-[Garbles](https://garbles.fun/)
+{% game title="Garbles" image="https://www.garbles.fun/imgs/lfs/newLogo.png?nf_resize=fit&w=800" href="https://www.garbles.fun" description="The blockchain mobile game that cleans up the planet" /%}

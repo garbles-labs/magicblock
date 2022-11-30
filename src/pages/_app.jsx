@@ -15,78 +15,10 @@ import '@/styles/tailwind.css'
 
 const navigation = [
   {
-    title: 'Prologue',
     links: [
-      { title: 'Release Notes', href: '/docs/release-notes' },
-      { title: 'Contribution Guide', href: '/docs/contribution-guide' },
-    ],
-  },
-  {
-    title: 'Getting Started',
-    links: [
-      { title: 'Introduction', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: '', href: '/' },
       { title: 'Hello World', href: '/docs/hello-world' },
-      { title: 'Intro to Solana', href: '/docs/intro-to-solana' },
     ],
-  },
-  {
-    title: 'Core concepts',
-    links: [
-      { title: 'High-level Overview', href: '/docs/high-level-overview' },
-      {
-        title: 'The Accounts Struct',
-        href: '/docs/the-accounts-struct',
-      },
-      { title: 'The Program Module', href: '/docs/the-program-module' },
-      {
-        title: 'Errors',
-        href: '/docs/errors',
-      },
-      {
-        title: 'Cross-Program Invocations',
-        href: '/docs/cross-program-invocations',
-      },
-      {
-        title: 'Program Derived Addresses',
-        href: '/docs/pdas',
-      },
-    ],
-  },
-  {
-    title: 'Guides',
-    links: [
-      { title: 'Publishing Source', href: '/docs/publishing-source' },
-      {
-        title: 'Verifiable Builds',
-        href: '/docs/verifiable-builds',
-      },
-    ],
-  },
-  {
-    title: 'References',
-    links: [
-      { title: 'Anchor.toml', href: '/docs/manifest' },
-      { title: 'CLI', href: '/docs/cli' },
-      { title: 'AVM', href: '/docs/avm' },
-      {
-        title: 'Core Library',
-        href: 'https://docs.rs/anchor-lang/latest/anchor_lang/',
-      },
-      {
-        title: 'Rust Client Library',
-        href: 'https://docs.rs/anchor-client/latest/anchor_client/',
-      },
-      {
-        title: 'JavaScript Anchor Types',
-        href: '/docs/javascript-anchor-types',
-      },
-      { title: 'Space', href: '/docs/space' },
-    ],
-  },
-  {
-    title: 'Projects',
-    links: [{ title: 'Tic-Tac-Toe', href: '/docs/tic-tac-toe' }],
   },
   {
     title: 'Contacts',
@@ -146,7 +78,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <PlausibleProvider domain="magicblocks.gg" trackOutboundLinks={true}>
+      <PlausibleProvider domain="magicblock.gg" trackOutboundLinks={true}>
         <Head>
           <title>{pageTitle}</title>
           {description && <meta name="description" content={description} />}
@@ -157,7 +89,7 @@ export default function App({ Component, pageProps }) {
           <meta property="og:description" content={description} />
           <meta
             property="og:image"
-            content="https://www.magicblocks.gg/logo.png"
+            content="https://www.magicblock.gg/logo.png"
           />
           <meta property="og:image:width" content="250" />
           <meta property="og:image:height" content="214" />
@@ -168,7 +100,7 @@ export default function App({ Component, pageProps }) {
           <meta name="twitter:description" content={description} />
           <meta
             name="twitter:image"
-            content="https://www.magicblocks.gg/logo.png"
+            content="https://www.magicblock.gg/logo.png"
           />
         </Head>
         <Layout

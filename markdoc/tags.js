@@ -1,5 +1,7 @@
 import { Callout } from '@/components/Callout'
 import { LinkGrid } from '@/components/LinkGrid'
+import {Game} from "@/components/Game";
+import {IntroLine} from "@/components/IntroLine";
 
 const tags = {
   callout: {
@@ -28,6 +30,20 @@ const tags = {
         <figcaption>{caption}</figcaption>
       </figure>
     ),
+  },
+  'intro': {
+    render: IntroLine,
+    selfClosing: true,
+  },
+  'game': {
+    render: Game,
+    selfClosing: true,
+    attributes: {
+      title: { type: String },
+      description: { type: String },
+      image: { type: String },
+      href: { type: String },
+    },
   },
   'link-grid': {
     render: LinkGrid,

@@ -15,7 +15,7 @@ export function Button({ variant = 'primary', className, ...props }) {
 export function ButtonLink({ variant = 'primary', className, href, ...props }) {
   return (
     <Link href={href}>
-      <a className={clsx(styles[variant], className)} {...props} />
+      <a target="_blank" className={clsx(styles[variant], className)} {...props} />
     </Link>
   )
 }

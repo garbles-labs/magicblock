@@ -1,4 +1,4 @@
-# MagicBlocks
+# Magicblock
 
 ## Getting started
 
